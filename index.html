@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link type="Text/CSS" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div>
+    <p>X scors: <b id="score-x">0</b></p>
+    <p>O scors: <b id="score-o">0</b></p>
+    <p>Draw: <b id="score-draw">0</b></p>
+        <table>
+            <tr>
+                <td>
+                    <button onclick="show_index(0,0)" class="cell"></button>
+                </td>
+
+                <td>
+                    <button onclick="show_index(0,1)" class="cell"></button>
+                </td>
+
+                <td>
+                    <button onclick="show_index(0,2)" class="cell"></button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button onclick="show_index(1,0)" class="cell"></button>
+                </td>
+
+                <td>
+                    <button onclick="show_index(1,1)" class="cell"></button>
+                </td>
+
+                <td>
+                    <button onclick="show_index(1,2)" class="cell"></button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button onclick="show_index(2,0)" class="cell"></button>
+                </td>
+
+                <td>
+                    <button onclick="show_index(2,1)" class="cell"></button>
+                </td>
+
+                <td>
+                    <button onclick="show_index(2,2)" class="cell"></button>
+                </td>
+            </tr>
+        </table>
+        <button onclick="reset()" id="new_game">New Game</button>
+        <br>
+        <input type="radio" name="Game" value="Cpu" id="cpu">
+          <label for="cpu">Cpu</label><br>
+
+        <input type="radio" name="Game" value="2players" id="2players" checked>
+          <label for="2players">2players</label><br>
+
+
+    </div>
+
+    <h1 id="win_x">Winner X</h1>
+    <h1 id="win_o">Winner O</h1>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

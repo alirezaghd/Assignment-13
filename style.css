@@ -1,0 +1,69 @@
+.cell{
+    width: 70px;
+    height: 70px;
+    /* border-radius: 6px; */
+    font-size: x-large;
+    border-spacing: 0px;
+    background: rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    border: none;    
+     position: relative;
+    text-align: center;
+
+
+
+
+
+}
+
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: darkcyan;
+    text-align: center;
+}
+
+table {
+    margin: 50px;
+    border-spacing: 0px;
+    text-align: center;
+
+}
+
+p{
+    display: inline;
+    padding: 5px;
+}
+
+
+.x{
+    background-color: pink;
+    color: darkred;
+}
+
+.o{
+    background-color: skyblue;
+    color: darkblue;
+}
+
+
+#win_x{
+    display:none;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, .2);
+    backdrop-filter: blur(500px);
+}
+
+#win_o{
+    display: none;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, .2);
+    backdrop-filter: blur(500px);
+}
